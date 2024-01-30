@@ -1,0 +1,156 @@
+
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.5rem;
+}
+.icons i{
+    width: 50px;
+    height: 50px;
+    background-color: #e88c2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100px;
+}
+.icons a{
+    text-decoration: none;
+}
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+}
+
+/* hero section */
+.hero{
+    background: url(./wave-haikei\ \(1\).svg) no-repeat center;
+    background-size: cover;
+    min-height: 90vh;
+}
+.heading{
+    font-weight: 900;
+    padding: 10px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #e88c2f;
+}
+/* button */
+.hire{
+    border: none;
+    padding: 10px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #e88c2f;
+    color: #fff;
+}
+.cv-btn{
+    border: none;
+    padding: 10px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background: #ddc1c1;
+    border: 1px solid #e88c2f;
+
+}
+.hero-image img{
+    width: 80%;
+    transform: translateY(-100px) translateX(100);
+}
+.her-text{
+    margin-top: 100px;
+}
+
+/* about section */
+.about-image img{
+    width: 80%;
+    /* height: 300px; */
+    border-radius: 200px;
+    border: 1px solid #ccc;
+}
+ /*Hobbies section */
+.hobbies-card .icon{
+    width: 50px;
+    height: 50px;
+    background-color: #e88c2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: #fff;
+}
+.hobbies-card{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.hobbies-card:hover{
+    background-color: #cccccc56;
+}
+
+/* offer section */
+.t-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+.offer-card{
+    box-shadow: -3px -3px 3px #ccc,  3px 3px 3px #ccc;
+    margin-bottom: 20px;
+}
+
+/* banner */
+.banner{
+    background: linear-gradient(315deg, #0000006d, #000000a5), url(https://shreethemes.in/dennis/layouts/assets/images/ab2.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    z-index: -1;
+}
+
+/* experience */
+.experience-left ul{
+    position: relative;
+}
+.experience-left ul::before{
+    content: "";
+    position: absolute;
+    right: -25px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background-color: transparent;
+    border-right: 3px dashed rgb(181, 181, 181);
+    z-index: -1;
+}
+.experience-left ul li{
+    position: relative;
+    z-index: -1;
+}
+.experience-left ul li::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #e88c2f;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 100px;
+    outline: 2px dashed #b7b7b7;
+    outline-offset: 7px;
+}
+.experience li{
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+.experience-right li{
+    padding-left: 20px;
+}
